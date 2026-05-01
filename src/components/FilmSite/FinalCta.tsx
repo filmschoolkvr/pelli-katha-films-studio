@@ -2,7 +2,7 @@ import { Reveal } from "./Reveal";
 
 export function FinalCta() {
   return (
-    <section id="contact" className="relative px-6 md:px-12 py-40 md:py-56">
+    <section id="contact" className="relative px-6 md:px-12 py-12 md:py-16">
       <div className="mx-auto max-w-4xl text-center">
         <Reveal>
           <p className="text-[10px] tracking-luxe text-[color:var(--gold)] uppercase mb-10">
