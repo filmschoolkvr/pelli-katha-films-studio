@@ -1,3 +1,6 @@
+/**
+ * WhyUs component highlighting the core values and USP of Pelli Katha Films.
+ */
 import { Reveal } from "./Reveal";
 
 const pillars = [
