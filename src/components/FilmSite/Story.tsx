@@ -3,7 +3,7 @@ import { Reveal } from "./Reveal";
 
 export function Story() {
   return (
-    <section className="relative px-6 md:px-12 py-32 md:py-48">
+    <section className="relative px-6 md:px-12 py-16 md:py-20">
       <div className="mx-auto max-w-7xl grid md:grid-cols-2 gap-16 md:gap-24 items-center">
         <div className="order-2 md:order-1">
           <Reveal delay={0}>

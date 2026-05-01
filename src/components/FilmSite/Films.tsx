@@ -22,7 +22,7 @@ function PlayIcon() {
 
 export function Films() {
   return (
-    <section id="films" className="relative py-32 md:py-48">
+    <section id="films" className="relative py-16 md:py-20">
       <div className="px-6 md:px-12 mb-16 md:mb-24">
         <Reveal>
           <p className="text-[10px] tracking-luxe text-[color:var(--gold)] uppercase mb-6">

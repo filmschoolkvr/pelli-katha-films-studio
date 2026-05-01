@@ -1,12 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Hero } from "@/components/FilmSite/Hero";
-import { Story } from "@/components/FilmSite/Story";
-import { Films } from "@/components/FilmSite/Films";
 import { WhyUs } from "@/components/FilmSite/WhyUs";
 import { Process } from "@/components/FilmSite/Process";
-import { Testimonials } from "@/components/FilmSite/Testimonials";
+import { BookingForm } from "@/components/FilmSite/BookingForm";
 import { FinalCta } from "@/components/FilmSite/FinalCta";
 import { Footer } from "@/components/FilmSite/Footer";
+import { SectionDivider } from "@/components/FilmSite/SectionDivider";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -31,11 +30,17 @@ function Index() {
   return (
     <main className="relative bg-[color:var(--ink)] text-[color:var(--cream)] film-grain overflow-x-hidden">
       <Hero />
-      <Story />
-      <Films />
+      <SectionDivider type="garland" className="opacity-60" />
+      
       <WhyUs />
+      <SectionDivider type="line" className="my-12" />
+      
       <Process />
-      <Testimonials />
+      <SectionDivider type="arch" className="opacity-40" />
+      
+      <BookingForm />
+      <SectionDivider type="line" className="my-24 opacity-20" />
+      
       <FinalCta />
       <Footer />
     </main>

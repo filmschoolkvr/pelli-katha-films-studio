@@ -29,7 +29,7 @@ export function Testimonials() {
   }, []);
 
   return (
-    <section className="relative px-6 md:px-12 py-32 md:py-48">
+    <section className="relative px-6 md:px-12 py-16 md:py-20">
       <div className="mx-auto max-w-4xl text-center">
         <Reveal>
           <p className="text-[10px] tracking-luxe text-[color:var(--gold)] uppercase mb-12">

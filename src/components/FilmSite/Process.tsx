@@ -10,7 +10,7 @@ const steps = [
 
 export function Process() {
   return (
-    <section className="relative px-6 md:px-12 py-32 md:py-48 bg-[color:var(--card)]/40">
+    <section id="process" className="relative px-6 md:px-12 py-16 md:py-20 bg-[color:var(--card)]/40">
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-24 md:mb-32">
           <Reveal>
